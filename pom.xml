@@ -168,9 +168,11 @@
     </dependency>
 <!--      jave-->
       <dependency>
-          <groupId>joinery</groupId>
-          <artifactId>jave</artifactId>
+          <groupId>com.gosick.bilibili</groupId>
+          <artifactId>joinery</artifactId>
           <version>1.0.2</version>
+          <scope>system</scope>
+          <systemPath>${pom.basedir}/src/main/resources/lib/jave-1.0.2.jar</systemPath>
       </dependency>
 
       <dependency>
